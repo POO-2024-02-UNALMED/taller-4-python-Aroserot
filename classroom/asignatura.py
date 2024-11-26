@@ -1,8 +1,8 @@
 class Asignatura:
 
-    def __init__(self, nombre, salon="remoto"):##Necesario para que se imprima ese valor por defecto
+    def __init__(self, nombre, salon="remoto"):
         self._nombre = nombre
         self._salon = salon
 
-    def __str__(self):##Hace de toString
+    def __str__(self):
         return f"{self._nombre} {self._salon}"
