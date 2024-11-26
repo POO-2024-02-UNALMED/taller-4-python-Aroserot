@@ -3,7 +3,7 @@ from classroom.asignatura import Asignatura
 class Grupo:
     grado = "Grado 12"
 
-    def __init__(self, grupo="grupo ordinado", asignaturas=None, estudiantes= []): ##Al final solo parametros con valores establecidos
+    def __init__(self, grupo="grupo predeterminado", asignaturas=None, estudiantes= []): ##Al final solo parametros con valores establecidos
         self._grupo = grupo
         if asignaturas is None:##En caso de que sea None
             asignaturas = []
